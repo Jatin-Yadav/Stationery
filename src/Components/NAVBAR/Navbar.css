@@ -3,7 +3,7 @@
 .link{color:#3797FF;}
 
 
-@media (max-width: 858px){.NAVBAR>.navbar{font-size: x-small;}}
+@media (max-width: 858px){.NAVBAR>.navbar{font-size: 15px;}}
 /*@media (max-width: 858px){
     .checkbtn{
       display: block;
