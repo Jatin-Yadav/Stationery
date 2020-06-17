@@ -1,0 +1,14 @@
+.home{overflow: hidden;position: relative;}
+.SLIDE>.home>.slide>.container>.lable{color: #000;}
+#lable{background-color: rgba(8, 210, 245, 0.6);border-radius: 10%;}
+@media (max-width: 858px){.container{font-size: x-small;}}
+.slider>.slide{
+     animation: slide 2s ease;}     
+@keyframes slide{
+    0%{
+        opacity: 0;transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;transform: scale(1);
+    }
+}

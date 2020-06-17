@@ -1,0 +1,2 @@
+.contact{color: blue;text-align: left;font-size: x-large;}
+@media (max-width: 858px){.contact #info{color: brown; font-size: x-small;}}

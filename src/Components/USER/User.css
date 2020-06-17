@@ -1,0 +1,2 @@
+.user{color: blue;}
+@media (max-width: 858px){.user{font-size: x-small;}}
