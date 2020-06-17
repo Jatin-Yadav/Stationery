@@ -10,7 +10,7 @@ class Slide extends Component {
 
 
     render() {
-        const Lheading ={color:'#FDEA33',fontSize:'30px',fontWeight:'bold',textShadow:'3px 3px 3px black'}
+        const Lheading ={color:'#FDEA33',fontSize:'30px',fontWeight:'bold',textShadow:'3px 3px 3px black' ,}
         const lable ={color:'#FDEA33',fontSize:'20px',fontWeight:'bold',textShadow:'3px 3px 3px black'}
         const OPP ={opacity:'80%'}
         return (
@@ -23,11 +23,11 @@ class Slide extends Component {
                                     <img style={OPP}
                                         className="d-block w-100"
                                         src={office}
-                                        alt="First slide"
+                                         alt="First slide"
                                     />
                                     <Carousel.Caption id="lable" >
                                         <div id="LABLE">
-                                        <h3 style={Lheading}>Office Stationery</h3>
+                                        <h3 style={Lheading} id="heading">Office Stationery</h3>
                                         <p style={lable}>Get anything you want From pen to pencil, we Sell everything.</p>
                                         </div>
                                     </Carousel.Caption>

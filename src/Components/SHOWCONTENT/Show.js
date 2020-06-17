@@ -13,5 +13,5 @@ class Show extends Component {
         )
     }
 }
-
+ 
 export default Show;
